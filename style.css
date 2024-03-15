@@ -1,0 +1,27 @@
+body {
+	font-family: Arial, sans-serif;
+	background: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+.container {
+	color: white;
+	max-width: 500px;
+	margin: 50px auto;
+}
+
+.error-message {
+	color: red;
+	text-shadow: 1px 1px 1px #242424;
+	font-size: large;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+label {
+	color: rgb(215, 215, 215);
+}
+.form-control {
+	color: white !important; /* Adding !important to override text colors from the font input */
+}
