@@ -1,11 +1,13 @@
 body {
 	font-family: Arial, sans-serif;
 	background: linear-gradient(to right, #8e2de2, #4a00e0);
+	color: white; /* Text color */
+	margin: 0; /* Remove default margin */
+	padding: 0; /* Remove default padding */
 }
 
 .container {
-	color: white;
-	max-width: 500px;
+	width: 50% !important; /* Adjusted for responsiveness */
 	margin: 50px auto;
 }
 
@@ -19,9 +21,21 @@ body {
 	margin-bottom: 20px;
 }
 
+h2 {
+	color: white;
+}
+
 label {
 	color: rgb(215, 215, 215);
 }
+
 .form-control {
 	color: white !important; /* Adding !important to override text colors from the font input */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1028px) {
+	.container {
+		width: 100% !important; /* Make container full width on mobile */
+	}
 }
